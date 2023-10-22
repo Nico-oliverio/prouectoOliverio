@@ -1,0 +1,146 @@
+body{
+    font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Mooli', sans-serif;
+font-family: 'Open Sans', sans-serif;
+background-image: url(../Imagenes/6070.jpg);
+width: 100%;
+
+}
+/*Header*/
+.Header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: blueviolet;
+    
+}
+.Header img{
+    width: 8%;
+}
+.Header nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto 0 18%;
+}
+.Menu{
+    display: flex;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline white;
+}
+.lista{
+    list-style: none;
+    margin-right: 33px;
+   
+}
+.Header input{
+    height: 25px;
+    width: 56%;
+}
+.Header a{
+    margin-left: 1%;
+}
+
+/*Main*/
+.contenido h2{
+    text-align: center;
+    margin-top: 70px;
+    text-decoration: underline;
+}
+.Video{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Video img{
+    width: 37%;
+}
+
+
+
+
+.carrusel img{
+    width: 50%;
+}
+.carrusel{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    text-align: center;
+    
+}
+
+
+
+.destacados{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.destacados p{
+    width: 70%;
+    margin-top: -25px;
+    color: transparent;
+    margin-left: 56px;
+    position: relative;
+    z-index: 1;
+}
+.destacados p:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.destacados img{
+    width: 70%;
+    z-index: -1;
+}
+.imagen{
+    text-align: center;
+}
+
+
+/*footer*/
+.footer{
+    border-top: 1px solid black;
+    padding-top: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: blueviolet;
+}
+.logo{
+    width: 10%;
+}
+
+@media (max-width: 700px) {
+    
+    .destacados{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .destacados img{
+        width: 70%;
+        z-index: -1;
+    }
+    .destacados p{
+        width: 70%;
+        margin-top: -25px;
+        color: transparent;
+        margin-left: 56px;
+        position: relative;
+        z-index: 1;
+    }
+}
